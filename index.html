@@ -9,19 +9,32 @@
    <body>
      <form>
   <!--text box for enter Email address -->
-<label>Email: <input type="text" name="Email" id="Email" placeholder="Enter EmailAddress" /></label><br />
+<div>
+<label for="Email">Email: <input type="text" name="Email" id="Email" placeholder="Enter EmailAddress" /></label>
+</div>
 <!--password box for enter password -->
-<label>Password: <input type="password" name="psw" placeholder="Enter password" /></label><br />
+<div>
+<label for="psw">Password: <input type="password" name="psw" id="psw" placeholder="Enter password" /></label>
+</div>
 <!--text box for enter Github username -->
-<label>Github Username: <input type="text" name="Username" id="Username" placeholder="Enter Github Username" /></label><br />
+<div>
+<label for="Username">Github Username: <input type="text" name="Username" id="Username" placeholder="Enter Github Username" /></label>
+</div>
+
 <!--radio for choose one option -->
-<label><input type="radio" name="option" value="option" />Enterprise</label><br />
-<label><input type="radio" name="option" value="option" />Pro</label><br />
-<label><input type="radio" name="option" value="option" />Free</label><br />
+<div>
+<label for="Enterprise"><input type="radio" name="option" id="Enterprise" value="Enterprise" />Enterprise</label>
+<label for="Pro"><input type="radio" name="option" id="Pro" value="Pro" />Pro</label>
+<label for="Free"><input type="radio" name="option" id="Free" value="Free" />Free</label>
+</div>
 <!--check box for choose "remember me" -->
-<label><input type="checkbox" name="remember" value="remember"> REMEMBER ME</label><br />
+<div>
+<label for="remember"><input type="checkbox" name="remember" id="remember" value="remember"> REMEMBER ME</label>
+</div>
 <!--submit button -->
+<div>
 <button type="submit">Submit</button>
+</div>
 
      </form>
    </body>
